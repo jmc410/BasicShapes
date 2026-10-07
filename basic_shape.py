@@ -30,3 +30,4 @@ class BasicShape(ABC):
     def calc_area(self):
         """Calculate and store araea of the shape."""
         pass
+
