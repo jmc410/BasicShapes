@@ -24,7 +24,9 @@
   <ItemGroup>
     <Compile Include="basic_shape.py" />
     <Compile Include="circle.py" />
-    <Compile Include="module1.py" />
+    <Compile Include="square.py" />
+    <Compile Include="rectangle.py" />
+    <Compile Include="test\test_rectangle.py" />
     <Compile Include="test\test_circle.py" />
     <Compile Include="test\__init__.py" />
     <Compile Include="test\test_basic_shape.py" />

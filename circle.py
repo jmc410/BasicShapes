@@ -6,7 +6,6 @@ class Circle(BasicShape):
     """Represent a circle with a center point and radius."""
 
     def __init__(self, x_center, y_center, radius, name="Circle"):
-        """Initialize a circle."""
         super().__init__(name)
         self.x_center = x_center
         self.y_center = y_center
