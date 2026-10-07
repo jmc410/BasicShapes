@@ -26,3 +26,6 @@ class TestBasicShape(unittest.TestCase):
 if __name__ == "__main__":
     unittest.main()
 
+
+
+# self reminder: python -m unittest discover -s tests -v

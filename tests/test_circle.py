@@ -39,8 +39,8 @@ class TestCircle(unittest.TestCase):
         self.assertEqual(self.circle.area, old_area)
 
     def test_custom_name(self):
-        circle = Circle(0, 0, 2, "Circle Of Death")
-        self.assertEqual(circle.name, ("Circle Of Death")
+        circle = Circle(0, 0, 2, ("Circle Of Death"))
+        self.assertEqual(circle.name, ("Circle Of Death"))
 
 
 if __name__ == "__main__":
